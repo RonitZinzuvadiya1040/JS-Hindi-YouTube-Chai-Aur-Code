@@ -33,9 +33,34 @@ let myObj = {
 
 // Functions
 const myFunction = function(){
-    console.log("Hello World");
+    // console.log("Hello World");
 }
 
-console.log(typeof(myFunction));
+// console.log(typeof(myFunction));
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ******************************************************** 
+
+// Stack Memory (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "ronitzinzuvadiya"
+
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ronit@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
