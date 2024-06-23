@@ -27,5 +27,41 @@ let someNumber = 33;
 
 let StringNumber = String(someNumber);
 
-console.log(StringNumber);
-console.log(typeof(StringNumber)); // string
+// console.log(StringNumber);
+// console.log(typeof(StringNumber)); // string
+
+
+// ***************** Operations ******************
+
+// let value = 3 
+
+// let negValue = -value;
+// console.log(negValue);
+
+let str1 = "Ronit"
+let str2 = " Zinzuvadiya"
+
+let str3 = str1 + str2;
+// console.log(str3);
+
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + "2");
+// console.log("1" + 2 + 2); // 122
+// console.log(1 + 2 + "2"); // 32
+
+// console.log(+true);
+// console.log(+"");
+
+
+let num1, num2, num3
+
+let gameCounter = 100
+
+++gameCounter;
+
+console.log(gameCounter);
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
